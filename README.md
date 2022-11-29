@@ -1,4 +1,4 @@
-An implementation of rotated monogenic decomposition of 2-D signal $`g`$.
+An implementation of rotated monogenic decomposition of 2-D signal $g$.
 
 Let $`\theta \in [0, 2 \pi)`$. Denote the Riesz kernel $`r_l`$ and Riesz transform $`R_l`$ as  
 ```math
