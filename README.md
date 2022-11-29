@@ -40,7 +40,7 @@ st = stFlux((nTrain_x, nTrain_y, 1, nSubsample), 2, σ=abs, outputPool = 1, scal
 st = cu(st);
 ```
 
-Suppose `input_data` is the input of the 2-D signal, and $\theta = $ `ang`. 
+Suppose `input_data` is the input of the 2-D signal, and set $\theta$ as `ang`. 
 
 We can find the rotated monogenic decomposition of the scattering output by
 ```
