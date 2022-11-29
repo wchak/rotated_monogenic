@@ -31,4 +31,5 @@ using ScatteringTransform
 using MonogenicFilterFlux
 ```
 
+scale = 4; st = stFlux((nTrain_x, nTrain_y, 1, nSubsample), 2, σ=abs, outputPool = 1, scale = scale); st = cu(st);
 
