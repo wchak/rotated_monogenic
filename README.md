@@ -31,7 +31,8 @@ using ScatteringTransform
 using MonogenicFilterFlux
 ```
 
-Suppose the feature dimension is (nTrain_x, nTrain_y, 1, nSubsample).\\
+Suppose the feature dimension is (nTrain_x, nTrain_y, 1, nSubsample).
+
 The $l$-th layer monogenic scattering transform network with maximum scale $s$ is 
 ```
 scale = s; 
