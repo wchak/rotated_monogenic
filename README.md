@@ -1,6 +1,6 @@
 An implementation of rotated monogenic decomposition of 2-D signal $g$.
 
-Let $`\theta \in [0, 2 \pi)`$. Denote the Riesz kernel $`r_l`$ and Riesz transform $`R_l`$ as  
+Let $\theta \in [0, 2 \pi)$. Denote the Riesz kernel $r_l$ and Riesz transform $R_l$ as  
 ```math
 r_l({\bf x}) = c_l \dfrac{x_l}{\Vert {\bf x} \Vert^3}
 ```
