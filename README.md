@@ -31,7 +31,7 @@ using ScatteringTransform
 using MonogenicFilterFlux
 ```
 
-Suppose the feature dimension is (nTrain_x, nTrain_y, 1, nSubsample).
+Suppose the feature dimension is `(nTrain_x, nTrain_y, 1, nSubsample)`.
 
 The $l$-th layer monogenic scattering transform network with maximum scale $s$ is 
 ```
@@ -40,7 +40,7 @@ st = stFlux((nTrain_x, nTrain_y, 1, nSubsample), 2, σ=abs, outputPool = 1, scal
 st = cu(st);
 ```
 
-Suppose `input_data` is the input of the 2-D signal, and $\theta = $ ang. 
+Suppose `input_data` is the input of the 2-D signal, and $ \theta = $ `ang`. 
 
 We can find the rotated monogenic decomposition of the scattering output by
 ```
