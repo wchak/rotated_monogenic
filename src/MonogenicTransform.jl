@@ -51,6 +51,7 @@ function (Mono::MonoConvFFT)(x::AbstractArray{<:Number,4})
     end
     
     lfband = xbc;
+    avg_out = 0;
     
     for scal=1:scale
         LF = fftPlan * lfband;
