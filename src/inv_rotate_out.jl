@@ -2,10 +2,10 @@ function inv_rotate_out(out, img, angle)
 
 	# Input
 	# out: the ouput after the scattering transform
-	# img: the original image before the scattering transform
+	# img: the target image size for the scattering transform
 	# angle: the rotation angle
 
-	x, y = size(out);
+	x, y = size(img);
 
 	if length(size(out)) == 4
 
