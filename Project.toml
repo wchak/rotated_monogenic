@@ -37,4 +37,4 @@ Wavelets = "29a6e085-ba6d-5f35-a997-948ac2efa89a"
 PyPlot = "d330b81b-6aea-500a-939a-2ce795aea3ee"
 Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
 RecipesPipeline = "01d81517-befc-4cb6-b9ec-a95719d0359c"
-
+IterTools = "c8e1da08-722c-5040-9ed9-7db0dc04731e"
