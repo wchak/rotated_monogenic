@@ -8,3 +8,5 @@ CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
 Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
+ArrayInterface = "4fba245c-0d91-5ea0-9b3e-6abc04ee57a9"
+
