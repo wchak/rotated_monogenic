@@ -2,7 +2,7 @@ module MonogenicFilterFlux
 using Reexport
 # @reexport using CUDA
 using CUDA
-using Zygote, Flux, Shearlab, LinearAlgebra
+using Zygote, Flux, LinearAlgebra
 using AbstractFFTs, FFTW # TODO: check the license on FFTW and such
 using ContinuousWavelets
 using Flux
@@ -17,7 +17,7 @@ import Adapt: adapt
 export pad, poolSize, originalDomain, params!, formatJLD
 export Periodic, Pad, ConvBoundary, Sym, analytic, outType, nFrames
 # layer types and constructors
-export ConvFFT, waveletLayer, shearingLayer, averagingLayer
+export ConvFFT, waveletLayer, averagingLayer
 # inits
 export positive_glorot_uniform, iden_perturbed_gaussian,
     uniform_perturbed_gaussian
